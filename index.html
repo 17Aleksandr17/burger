@@ -1,0 +1,71 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- оболочка документа, указываем язык сожержимого -->
+<html lang="ru">
+    <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<head>
+    <!-- Кодировка страницы -->
+    <meta charset="UTF-8">
+    <!-- говорит браузеру Internet Explorer, что он должен работать в режиме совместимости с самой последней его версией -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Адаптив -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Заголовок страницы в браузере -->
+    <title>Adaptive header for site</title>
+    <!-- Подключение файла стилей CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Отображаемое тело страницы -->
+<body>
+    <!-- Оболочка для демонстрации -->
+    <div class="wrapper">
+        <!-- Контент -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="container">
+                    <!-- Элемент navbar__wrap также является контейнером, но в нем мы уже выравниваем элементы внутри самого меню. -->
+                    <div class="navbar__wrap">
+                        <!-- Сама кнопка бургер меню — div с классом hamb -->
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <!-- Логотип — ссылка с классом logo -->
+                    <a href="#" class="logo" id="logo">Logo</a>
+                    <ul class="menu" id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Benefits</a></li>
+                        <li><a href="#">Prices</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+                <!-- div с классом popup — это всплывающее окно, которое будет появляться при нажатии на иконку бургер. -->
+                <div class="popup" id="popup"></div>
+        </header   >
+        <!-- Продолжение вашего кода .. -->
+        <main class="main">
+            <div class="container">
+                <h1 class="title">Lorem ipsum dolor sit amet.</h1>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates quasi cupiditate aut quis molestiae illum molestias assumenda vitae dicta harum nobis deserunt itaque, repellendus quia doloremque officia quo ipsam.</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates quasi cupiditate aut quis molestiae illum molestias assumenda vitae dicta harum nobis deserunt itaque, repellendus quia doloremque officia quo ipsam.</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates quasi cupiditate aut quis molestiae illum molestias assumenda vitae dicta harum nobis deserunt itaque, repellendus quia doloremque officia quo ipsam.</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates quasi cupiditate aut quis molestiae illum molestias assumenda vitae dicta harum nobis deserunt itaque, repellendus quia doloremque officia quo ipsam.</p>
+                <img src="img/image.jpg" alt="">
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem possimus, molestiae praesentium sapiente quasi amet, dolorum iste corrupti alias, molestias hic. Voluptas exercitationem eius quae, rerum recusandae earum tenetur aperiam.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
